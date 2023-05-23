@@ -1,0 +1,90 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 0.5em;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Info class styles */
+  .info {
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .info button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .info button:hover {
+    background-color: #3E8E41;
+    cursor: pointer;
+  }
+  
+  .info button a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .main-content {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 1em;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 0.5em;
+    margin-right: 1em;
+    width: 60%;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  

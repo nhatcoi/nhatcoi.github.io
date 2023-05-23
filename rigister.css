@@ -1,0 +1,95 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Main-content class styles */
+  .main-content {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 10px;
+    width: 50%; /* adjust the width as desired */
+    margin: 0 auto; /* center the container horizontally */
+  }
+  
+  /* Heading styles */
+  .main-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .main-content form {
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styles */
+  .main-content input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button styles */
+  .main-content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+.main-content button:hover {
+    background-color: #3E8E41;
+  }
+  
+  /* Email input field styles */
+  .main-content input[type="email"] {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  .main-content label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Error message styles */
+  .main-content .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  /* Success message styles */
+  .main-content .success {
+    color: green;
+    font-size: 14px;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  /* Link styles */
+  .main-content a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .main-content a:hover {
+    color: #4CAF50;
+  }
+  
